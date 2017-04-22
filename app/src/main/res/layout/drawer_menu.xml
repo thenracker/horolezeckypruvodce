@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aktualizovat data"
+                android:id="@+id/btn_aktualizovat" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stáhnout mapu"
+                android:id="@+id/btn_download_map" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zobrazovat ikony v záhlaví"
+                android:id="@+id/chck_show_icons_or_texts"
+                android:checked="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Režim vysoké přesnosti"
+                android:id="@+id/chck_high_presnost"
+                android:checked="false" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Přispěvatelé: ©OpenStreetMap, Miloš Diviš\nAutor: Petr Weissar™, weissar.petr@gmail.com"
+        android:layout_weight="0.07"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:id="@+id/txtAppInfo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp" />
+
+</FrameLayout>

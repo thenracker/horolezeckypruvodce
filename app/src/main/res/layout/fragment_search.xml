@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FragmentSearch"
+    >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchedText"
+            android:layout_gravity="center_horizontal"
+
+            android:hint="zadejte hledaný výraz..."
+            android:textColorHint="@android:color/secondary_text_light_nodisable"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView"
+            android:iconifiedByDefault="false"
+            android:inputType="text"
+            android:queryHint="zadejte hledaný výraz"
+            android:background="@color/colorTabLayout"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:drawSelectorOnTop="false"
+            android:clickable="true"
+            android:fastScrollEnabled="true"
+            android:fastScrollAlwaysVisible="true"
+            android:smoothScrollbar="true"
+            android:scrollingCache="true" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchesGroup"
+            android:orientation="vertical"
+            android:showDividers="middle"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:background="@color/colorTabLayout"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+
+                <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skalní věže"
+                android:id="@+id/switchSkaly"
+                android:checked="true" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orientační body"
+                    android:id="@+id/switichOrientacniBody"
+                    android:checked="true"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:padding="5dp">
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Turistické cesty"
+                    android:id="@+id/switchCesty"
+                    android:checked="true"
+                    />
+
+                <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oblasti"
+                android:id="@+id/switchOblasti"
+                android:checked="true"
+                    android:layout_marginLeft="55dp" />
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+
+    </FrameLayout>
+
+</LinearLayout>
+
+<!--
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom" android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_filter_w" />
+-->
+
+</FrameLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                android:id="@+id/txtNadpis"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Nevybrána žádná položka"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/abc_text_size_headline_material" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtTyp"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:text="&lt; Vyhledejte položku"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/abc_text_size_medium_material" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtOstatni"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorAccent"
+                android:text="Nebo vyberte ze svých seznamů >"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/abc_text_size_medium_material" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:maxWidth="35dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnChciVylezt"
+            android:text="Chci vylézt"
+            android:enabled="false"
+            android:drawableBottom="@drawable/ic_done_black_bottom"
+            android:drawablePadding="-30sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVylezeno"
+            android:text="Vylezeno"
+            android:enabled="false"
+            android:drawableBottom="@drawable/ic_done_all_balck_bottom"
+            android:drawablePadding="-30sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMapa"
+            android:text="Mapa"
+            android:enabled="false"
+            android:drawableBottom="@drawable/ic_done_map"
+            android:drawablePadding="-30sp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstSeznam">
+
+    </ListView>
+</LinearLayout>
+
+<!--
+<android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:layout_gravity="end|bottom" android:layout_margin="@dimen/fab_margin"
+android:src="@drawable/ic_plus" />-->
+</FrameLayout>

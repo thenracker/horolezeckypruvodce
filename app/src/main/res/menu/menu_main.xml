@@ -1,0 +1,84 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+
+    <!--SEARCH FRAGMENT-->
+    <item android:id="@+id/action_filtr" android:title="Filtrování výsledků"
+        android:icon="@drawable/ic_filter_w"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_vyhledat_vse" android:title="Ukázat vše"
+        android:icon="@drawable/ic_markers_w"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_seradit_abecedne" android:title="Seřadit abecedně"
+        android:icon="@drawable/ic_markers_w"
+        app:showAsAction="never"
+        android:checkable="true"
+        />
+    <item android:id="@+id/action_seradit_dle_vzdalenosti" android:title="Seřadit od nejbližších"
+        android:icon="@drawable/ic_markers_w"
+        app:showAsAction="never"
+        android:checkable="true"
+        />
+    <item android:id="@+id/action_zobrazit_wishList" android:title="Zobrazit to co chci vylézt"
+        android:icon="@drawable/ic_markers_w"
+        app:showAsAction="never"
+        android:checkable="true"
+        />
+    <item android:id="@+id/action_zobrazit_climbedList" android:title="Zobrazit vylezené"
+        android:icon="@drawable/ic_markers_w"
+        app:showAsAction="never"
+        android:checkable="true"
+        />
+
+
+
+
+    <!-- DETAIL FRAGMENT -->
+    <item android:id="@+id/action_navigovat" android:title="Zahájit navigaci"
+        android:icon="@drawable/ic_mapa_trasa_w"
+        app:showAsAction="always"
+        />
+    <!--android:icon="@drawable/ic_navigation_w"-->
+
+
+    <!-- MAP FRAGMENT -->
+    <item android:id="@+id/action_zmenaMapy" android:title="Změna mapy"
+        android:icon="@drawable/ic_map_change_w"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_zobrazitCesty" android:title="Zobrazit všechny cesty"
+        android:icon="@drawable/ic_linestring_w"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_vymazatVse" android:title="Vyčistit mapu"
+        android:icon="@drawable/ic_map_clear_w"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_urcitPolohu"
+        android:icon="@drawable/ic_marker_w"
+        app:showAsAction="never"
+        android:title="Určit svou polohu">
+    </item>
+    <item android:id="@+id/action_rotateMap" android:title="Otáčet dle Vašeho pohledu"
+        android:icon="@drawable/ic_map_clear_w"
+        android:checkable="true"
+        app:showAsAction="never"
+        />
+
+
+
+
+    <!-- VŠECHNY FRAGMENTY -->
+    <item android:id="@+id/action_napoveda" android:title="Nápověda"
+        android:icon="@drawable/ic_help_w"
+        app:showAsAction="never"
+        />
+</menu>
+

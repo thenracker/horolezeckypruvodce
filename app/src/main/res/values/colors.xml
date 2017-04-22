@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AF4023</color> <!-- #666666 -->
+    <color name="colorPrimaryDark">#000000</color> <!-- # -->
+
+    <color name="colorTabLayout">#FFFFFF</color>
+    <color name="colorTabLayoutFont">#000000</color>
+
+    <color name="colorAccent">#AF4023</color> <!-- #336699 -->
+
+    <color name="AppBarBackgroundTop">#AD3209</color> <!-- #204060 -->
+    <color name="AppBarBackgroundBot">#AD3209</color> <!-- #214161 -->
+
+    <color name="DefaultBackgroundColor">#EEEEEE</color>
+</resources>

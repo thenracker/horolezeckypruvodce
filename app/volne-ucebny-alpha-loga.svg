@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="volne-ucebny-alpha-loga.svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="355.55236"
+     inkscape:cy="296.78056"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="490"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01401932000000000px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;opacity:0"
+       d="m 160.53141,78.441271 439.2532,0 0,439.270399 -439.2532,0 0,-439.270399 z"
+       id="path2990"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\UhkHelper\app\volne-ucebny-alpha.png"
+       inkscape:export-xdpi="104.8"
+       inkscape:export-ydpi="104.8" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.1"
+       d="m 161.23238,517.01067 -1.07949,-208.33518 88.4759,-88.49339 84.12992,26.66578 179.32106,28.47435 -60.21296,63.90254 60.32512,44.56915 -133.96858,133.97383 -216.99097,-0.75708 z"
+       id="path2992"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\UhkHelper\app\volne-ucebny-alpha.png"
+       inkscape:export-xdpi="104.8"
+       inkscape:export-ydpi="104.8" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#297af3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 248.20821,219.94376 263.8996,0 0,55.56073 -263.8996,0 0,-55.56073 z"
+       id="path2994"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\UhkHelper\app\volne-ucebny-alpha.png"
+       inkscape:export-xdpi="104.8"
+       inkscape:export-ydpi="104.8" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#297af3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 248.20821,327.58828 263.8996,0 0,55.56073 -263.8996,0 0,-55.56073 z"
+       id="path2996"
+       inkscape:export-xdpi="104.8"
+       inkscape:export-ydpi="104.8"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\UhkHelper\app\volne-ucebny-alpha.png" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.01403630000000000px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none;opacity:0"
+       d="m 162.11522,579.45298 439.25197,0 0,439.24022 -439.25197,0 0,-439.24022 z"
+       id="path3017"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\HorolezeckyPruvodce\app\horolezecky-pruvodce-alpha.png"
+       inkscape:export-xdpi="104.67592"
+       inkscape:export-ydpi="104.67592" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.1"
+       d="m 408.64879,739.16778 147.92857,160.36045 -120.08055,120.09137 -275.06936,-1.2773 0.80006,-71.56914 45.96889,-45.96766 86.98295,-86.98063 10.40089,-10.40062 14.17667,16.9975 0.0281,-0.014 39.73676,-36.61973 19.95962,-15.45356 29.16743,-29.16665 z"
+       id="path3019"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\HorolezeckyPruvodce\app\horolezecky-pruvodce-alpha.png"
+       inkscape:export-xdpi="104.67592"
+       inkscape:export-ydpi="104.67592" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#b30909;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 293.78975,771.31005 64.86174,95.2899 12.15544,-10.41466 -34.02399,-52.42418 79.44546,-106.4625 139.14184,203.53496 -347.24403,0 85.66354,-129.52352 z"
+       id="path3021"
+       inkscape:export-filename="C:\Users\petrw\AndroidStudioProjects\HorolezeckyPruvodce\app\horolezecky-pruvodce-alpha.png"
+       inkscape:export-xdpi="104.67592"
+       inkscape:export-ydpi="104.67592" />
+  </g>
+</svg>

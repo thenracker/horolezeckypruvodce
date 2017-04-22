@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/prechod"
+    android:theme="@style/AlertDialog.AppCompat.Light"
+    android:elevation="4dp"
+    app:popupTheme="@style/AppTheme.PopupOverlay"> <!-- app:popupTheme a ne android:popupTheme !!! -->
+
+<!-- lze pridavat do toolboxu vlastni komba :)
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="zkouska"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="OK"
+            android:id="@+id/button" />
+
+    </LinearLayout>
+-->
+
+    </android.support.v7.widget.Toolbar>
+
